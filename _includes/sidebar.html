@@ -1,0 +1,13 @@
+<div id="sidebar">
+
+	<!-- Sidebar -->
+	<h3>Replication Files</h3>
+	{% for post in site.posts offset: 0 limit: 5 %}
+		<section>
+			<h3></h3>
+			<footer>
+				<a href="{{ site.baseurl }}{{ post.url }}" class="button">{{ post.title }}</a>
+			</footer>
+		</section>
+	{% endfor %}
+</div>
