@@ -1,3 +1,4 @@
+@import url("academicons.min.css");
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
@@ -702,7 +703,7 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../images/test1.jpeg");
+		background-image: url("../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
